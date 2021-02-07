@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Job-Search-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div id="logo">devJobs</div> 
+          <!-- <iframe src="https://giphy.com/embed/l1J9LA7uGSENdz3KU" frameBorder="0" class="gif" allowFullScreen></iframe>  -->      
+        </div>
+
+        <div class="search">
+            <div class="search-bar" >
+                
+                   <input #description id="description" type="text" placeholder="Description" name="search">
+                   <input #location id="location" type="text" placeholder="Location" name="search">
+
+                   <button onclick="searchJOB()"  class="btn-text"><i class="fa fa-search"></i></button> 
+
+                   <button id="btn-next" class="btn-text" value="0">Next</button> 
+                   <button id="btn-prev" class="btn-text" value="0">Prev</button> 
+            </div>    
+        </div>
+        
+    </header>
+
+    <div>
+        
+            <div id="data">
+      
+            </div>
+        
+       
+    </div>
+  
+
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
