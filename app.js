@@ -111,7 +111,7 @@ promise.then((data) => {
 
 
 btn_next.onclick = function () {
-    page = 1;
+    
     nextPage();
     const promise = new Promise((resolve, reject) => {
     const request = new XMLHttpRequest();
