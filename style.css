@@ -13,7 +13,7 @@ header{
     background-color: #7122FA;
     color: white;
     padding: 5px;   
-    height: 135px;    
+    height: 120px;    
     border-radius: 0 0 0 50px;
     position: fixed;
     z-index: 99999;
@@ -22,13 +22,19 @@ header{
       
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
 
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
 
 #logo{
     font-family: 'Nunito', sans-serif;
-    margin : 12px 0 0 0;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 50px;
     color: white;   
     text-align: center;   
     
@@ -36,7 +42,7 @@ header{
 
  .search{
     margin-left: 16% ;
-    margin-top: 16px;
+    margin-top: 10px ;
     padding: 10px;
     background-color: white;
     width: 70%;
@@ -138,9 +144,7 @@ header{
       border-radius: 5px;
       border: 2px solid rgb(123, 124, 124) ;
       padding: 3px;
-      background-color: white;
-      
-     
+      background-color: white;    
   }
 
   .text1{
@@ -191,17 +195,32 @@ header{
     clear: both;
     display: table;
   }
-
+  
   footer{
-    padding: 40px 20% 20px 21%;
-    
-    margin-top: 6%;
-    background-color: #7122FA;
-    position: fixed;
-    left: 0;
+    height: 2.5rem; 
+  }
+  
+  /* footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
-}
+    height: 2.5rem; 
+    padding: 40px 20% 20px 21%;    
+    margin-top: 6%; 
+    background-color: #7122FA;      
+   }  
+    /* Footer height */
+  
+  /* footer{
+    padding: 40px 20% 20px 21%;    
+    margin-top: 6%;
+    background-color: #7122FA;
+    position: absolute;
+    
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+} */
 footer ul{
           
         display: flex;
