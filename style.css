@@ -13,7 +13,7 @@ header{
     background-color: #7122FA;
     color: white;
     padding: 5px;   
-    height: 140px;    
+    height: 135px;    
     border-radius: 0 0 0 50px;
     position: fixed;
     z-index: 99999;
@@ -199,6 +199,17 @@ header{
     clear: both;
     display: table;
   }
+
+
+.errMsg{
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+}
+
+
+
 
 /*                                                     CSS for  Mobiles                  */
 
