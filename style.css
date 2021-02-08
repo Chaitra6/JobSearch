@@ -22,15 +22,7 @@ header{
       
 }
 
-/* .head{
-    display: flex;
-    justify-content: space-between;
-} */
 
-/* .gif{
-    width: 200px;
-    height: 14%;
-} */
 
 #logo{
     font-family: 'Nunito', sans-serif;
@@ -49,7 +41,7 @@ header{
     background-color: white;
     width: 70%;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px rgba(168, 155, 241, 0.986);
+    box-shadow: 5px 5px 15px rgba(156, 141, 236, 0.986);
 }
 
 .search-bar input[type=text] {
@@ -179,7 +171,7 @@ header{
     float:right;
     width: 24%;
     padding: 5px;
-    
+    margin-bottom: -5%;
     background: black;
     color: white;
     font-size: 13px;
@@ -200,13 +192,36 @@ header{
     display: table;
   }
 
-
-.errMsg{
-  color: black;
-  font-weight: bolder;
-  font-size: larger;
-  text-align: center;
+  footer{
+    padding: 40px 20% 20px 19%;
+    width: 100%;
+    margin-top: 6%;
+    background-color: #7122FA;
 }
+footer ul{
+          
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;     
+    
+}
+
+.footer-links {  
+  font-size: 15px;  
+  text-decoration: none;
+  color: rgb(179, 189, 182);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.footer-links:hover{
+  color: rgb(1, 2, 10);
+  text-decoration: none;
+}
+
+
 
 
 
@@ -215,6 +230,15 @@ header{
 
 
 @media (max-width: 480px) { 
+
+  
+        #data {
+          padding-top: 200px;
+          margin: 0 6% 0 22%;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);     
+      }
+
 
     .search-bar input[type=text] {
         padding: 6px ;    
@@ -247,11 +271,19 @@ header{
       }
 
 
-      #data {
-        padding-top: 200px;
-        margin: 0 6% 0 22%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);     
+    .applyJ{      
+      float:right;
+      width: 27%;
+      padding: 5px;      
+      background: black;
+      color: white;
+      font-size: 11px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      border-left: none;
+      cursor: pointer;
+      text-align: center;
+      margin-bottom: -5%;
     }
 }
 
@@ -299,5 +331,21 @@ header{
         cursor: pointer;
         
       }
+
+      .applyJ{
+        margin-bottom: -5%;      
+        float:right;
+        width: 27%;
+        padding: 5px;      
+        background: black;
+        color: white;
+        font-size: 11px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        border-left: none;
+        cursor: pointer;
+        text-align: center;
+      }
+
 
 } 
