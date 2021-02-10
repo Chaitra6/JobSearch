@@ -6,5 +6,5 @@ The Application UI is also set for the Mobile and Tab Screens.
 ## To Open the App:
 
 Open the folder containing all three files (HTML,CSS,JS) in  VS CODE. Run the Index.html in live server, note the port number.
-Open Chrome and type: #http://localhost:(port)/      -eg. http://localhost:5500/
+Open Chrome and type:  http://localhost:(port)/      -eg. http://localhost:5500/
 
