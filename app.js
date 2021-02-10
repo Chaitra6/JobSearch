@@ -112,7 +112,7 @@ promise.then((data) => {
 
 btn_next.onclick = function () {
     
-    nextPage();
+    nextPage(); // page = page+1
     const promise = new Promise((resolve, reject) => {
     const request = new XMLHttpRequest();
     request.open('GET', `https://jobs.github.com/positions.json?&page=${page}`);
